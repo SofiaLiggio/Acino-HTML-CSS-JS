@@ -1,7 +1,43 @@
-.main {
-  background-color: darkred;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.navbar {
-  background-color: blanchedalmond;
+body {
+  min-height: 100vh;
+  background-image: url(https://images.unsplash.com/photo-1491924778227-f225b115dd5f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: sans-serif;
+}
+
+.main {
+  background-color: cadetblue;
+}
+
+nav {
+  background-color: darkred;
+  color: yellowgreen;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav li {
+  height: 50px;
+}
+
+nav a {
+  height: 100%;
+  padding: 0 30px;
+  text-decoration: none;
+  /* display: flex; */
+  align-items: center;
 }
