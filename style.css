@@ -5,23 +5,17 @@
 
 body {
   min-height: 100vh;
-  background-image: url(https://images.unsplash.com/photo-1491924778227-f225b115dd5f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-image: url(/img/cork_stoppers.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   font-family: sans-serif;
 }
 
-.main {
-  background-color: cadetblue;
-}
-
 nav {
-  background-color: darkred;
-  color: yellowgreen;
+  background-color: white;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
-
 nav ul {
   width: 100%;
   list-style: none;
@@ -38,6 +32,30 @@ nav a {
   height: 100%;
   padding: 0 30px;
   text-decoration: none;
-  /* display: flex; */
+  display: flex;
   align-items: center;
+  color: black;
+}
+
+nav a:hover {
+  background-color: #f0f0f0;
+}
+
+nav li:first-child {
+  margin-right: auto;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  z-index: 999;
+  background-color: white;
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
