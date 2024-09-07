@@ -5,9 +5,10 @@
 
 body {
   min-height: 100vh;
-  background-image: url(/img/cork_stoppers.jpg);
+  background-image: url(/img/corks_background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   font-family: sans-serif;
+  opacity: 0.8;
 }
