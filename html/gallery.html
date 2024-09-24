@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="../css/generic.css" />
     <link rel="stylesheet" href="../css/nav.css" />
+    <link rel="stylesheet" href="../css/gallery.css" />
   </head>
   <body>
     <nav>
@@ -17,5 +18,40 @@
         <li><a href="../html/contacts.html" class="nav-btn">Contact</a></li>
       </ul>
     </nav>
+
+    <div class="gallery-video">
+      <video
+        width="420px"
+        height="340"
+        controls
+        autoplay
+        loop
+        muted
+        src="../video/Video - WIne.mp4"
+      >
+        <source src="Video-WIne.mp4" type="video/mp4" />
+        <source src="Video-WIne.ogg" type="video/ogg" />
+        Your browser does not support the video   tag.
+      </video>
+    </div>
+    <div class="container">
+      <div class="ivory-container">
+        <button class="prev">&#10094;</button>
+
+        <img
+          class="img"
+          src="../img/gallery1.jpg"
+          alt="bottles of wine"
+          width="400px"
+        />
+        <!-- <img src="../img/gallery2.jpg" alt="grapes" width="400px" />
+        <img src="../img/gallery3.jpg" alt="pink wine" width="400px" />
+        <img src="../img/gallery4.jpg" alt="vineyard" width="400px" />
+        <img src="../img/gallery5.jpg" alt="bottles" width="400px" />
+        <img src="../img/gallery6.jpg" alt="row of wine" width="400px" /> -->
+
+        <button class="next">&#10095;</button>
+      </div>
+    </div>
   </body>
 </html>
