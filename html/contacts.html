@@ -6,6 +6,21 @@
     <title>Document</title>
     <link rel="stylesheet" href="../css/generic.css" />
     <link rel="stylesheet" href="../css/nav.css" />
+    <link rel="stylesheet" href="../css/contacts.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <nav>
@@ -17,5 +32,40 @@
         <li><a href="../html/contacts.html" class="nav-btn">Contact</a></li>
       </ul>
     </nav>
+    <div class="contacts-container">
+      <div class="title-container">
+        <h1 class="satisfy-regular">Let 's keep in touch !</h1>
+      </div>
+
+      <div class="main-container">
+        <div class="white-container">
+          <h3 class="indie-flower-regular">
+            Contact us for any information or questions. <br />
+            Our offices are open from Monday to Friday from 09:00 am to 06:00
+            pm.
+          </h3>
+          <div class="form">
+            <form action="processa_form.php" method="post">
+              <label for="nome"> <b>Name:</b></label>
+              <input type="text" id="nome" name="nome" required />
+
+              <label for="email"><b>Email:</b></label>
+              <input type="email" id="email" name="email" required />
+
+              <label for="messaggio"><b>Message:</b></label>  
+
+              <textarea id="messaggio" name="messaggio" required></textarea>
+
+              <button class="btn-invia" type="submit">Invia</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer">
+      <p>All our wines are produced and bottled at the Acino company.</p>
+      <a href="example@example.com" style="color: black">example@example.com</a>
+    </footer>
   </body>
 </html>
