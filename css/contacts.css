@@ -70,7 +70,7 @@ body {
 }
 
 .form {
-  background-color: #4caf50;
+  /* background-color: #4caf50; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -80,6 +80,7 @@ input,
 textarea {
   border-color: black;
   border-style: solid;
+  display: flex;
 }
 
 .btn-invia {
@@ -93,4 +94,16 @@ footer {
   margin-top: 56px;
   background-color: rgb(245, 76, 76);
   color: white;
+}
+
+#messaggio {
+  height: 100px;
+}
+
+.form {
+  padding-top: 20px;
+}
+
+.btn-invia {
+  margin: 10px;
 }
