@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Satisfy&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +13,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   font-family: sans-serif;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .main-container {
@@ -27,7 +29,33 @@ body {
   width: 1800px;
   margin: 0 auto;
   border-radius: 15px;
-  background-color: rgb(128, 102, 59);
+  background-color: rgb(199, 195, 195);
   border-color: black;
   border-style: solid;
+}
+
+.bottle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
+
+.info-bottle {
+  display: none;
+}
+
+.bottle:hover .info-bottle {
+  display: block;
+}
+
+.indie-flower-regular {
+  font-family: "Indie Flower", cursive;
+  font-weight: 500;
+  font-style: normal;
+  padding-top: 40px;
+  font-weight: bold;
+  text-align: justify;
+  margin-left: 50px;
+  margin-right: 50px;
 }
