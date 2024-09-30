@@ -27,7 +27,7 @@ body {
   width: 1800px;
   margin: 0 auto;
   border-radius: 15px;
-  background-color: rgb(131, 170, 202);
+  background-color: rgb(160, 208, 100);
   border-color: black;
   border-style: solid;
   display: flex;
@@ -66,18 +66,23 @@ body {
 }
 
 .carousel {
+  /* background-color: #4caf50; */
   width: 800px;
   overflow: hidden;
+  padding: 50px;
+  padding-left: 100px;
 }
 
 .slide {
+  display: block;
+  margin: 0 auto;
   width: 100%;
-  float: left;
+  /* float: left; */
 }
 
 footer {
   text-align: center;
   margin-top: 56px;
-  background-color: white;
+  background-color: #a8af4c;
   color: black;
 }
