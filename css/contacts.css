@@ -9,7 +9,7 @@
 
 body {
   min-height: 100vh;
-  background-image: url(/img/bg_contacts.jpg);
+  background-image: url(/img/bg_gallery.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -64,7 +64,7 @@ body {
   width: 700px;
   margin: 0 auto;
   border-radius: 15px;
-  background-color: rgb(212, 192, 209);
+  background-color: rgb(139, 179, 90);
   border-color: black;
   border-style: solid;
 }
@@ -92,7 +92,7 @@ textarea {
 footer {
   text-align: center;
   margin-top: 56px;
-  background-color: rgb(245, 76, 76);
+  background-color: #a8af4c;
   color: white;
 }
 

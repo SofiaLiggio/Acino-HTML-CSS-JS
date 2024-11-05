@@ -8,7 +8,7 @@
 
 body {
   min-height: 100vh;
-  background-image: url(/img/bg_products.jpg);
+  background-image: url(/img/bg_gallery.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -29,7 +29,7 @@ body {
   width: 1800px;
   margin: 0 auto;
   border-radius: 15px;
-  background-color: rgb(199, 195, 195);
+  background-color: rgb(139, 179, 90);
   border-color: black;
   border-style: solid;
   display: flex;
@@ -62,9 +62,14 @@ body {
   margin-right: 50px;
 }
 
+.img-fluid {
+  max-width: 40vh;
+  height: auto;
+}
+
 footer {
   text-align: center;
   margin-top: 56px;
-  background-color: rgb(154, 86, 27);
+  background-color: #a8af4c;
   color: white;
 }
