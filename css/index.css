@@ -83,6 +83,12 @@ body {
   color: white;
 }
 
+.video-section {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
 footer {
   text-align: center;
   margin-top: 56px;
