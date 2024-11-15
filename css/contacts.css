@@ -107,3 +107,18 @@ footer {
 .btn-invia {
   margin: 10px;
 }
+
+#timeButton {
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

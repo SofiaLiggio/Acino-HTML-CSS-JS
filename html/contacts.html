@@ -22,6 +22,22 @@
       href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Satisfy&display=swap"
       rel="stylesheet"
     />
+    <style>
+      #timeButton {
+        animation-name: fadeIn;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+      }
+
+      @keyframes fadeIn {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+    </style>
   </head>
   <body>
     <nav>
@@ -31,10 +47,24 @@
             ><img src="../img/icon_grape.png" alt=""
           /></a>
         </li>
-        <li><a href="../html/index.html" class="nav-btn">Home</a></li>
-        <li><a href="../html/products.html" class="nav-btn">Products</a></li>
-        <li><a href="../html/gallery.html" class="nav-btn">Gallery</a></li>
-        <li><a href="../html/contacts.html" class="nav-btn">Contact</a></li>
+        <li>
+          <a href="../html/index.html" id="timeButton" class="nav-btn">Home</a>
+        </li>
+        <li>
+          <a href="../html/products.html" id="timeButton" class="nav-btn"
+            >Products</a
+          >
+        </li>
+        <li>
+          <a href="../html/gallery.html" id="timeButton" class="nav-btn"
+            >Gallery</a
+          >
+        </li>
+        <li>
+          <a href="../html/contacts.html" id="timeButton" class="nav-btn"
+            >Contact</a
+          >
+        </li>
       </ul>
     </nav>
     <div class="contacts-container">
