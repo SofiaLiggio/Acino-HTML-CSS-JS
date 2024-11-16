@@ -40,7 +40,7 @@
     </style>
   </head>
   <body>
-    <nav>
+    <nav class="navbar">
       <ul class="sidebar">
         <li>
           <a href="../html/index.html" class="nav-btn"
@@ -67,44 +67,43 @@
         </li>
       </ul>
     </nav>
-    <div class="contacts-container">
+    <div id="timeButton" class="contacts-container">
       <div class="main-container">
         <div class="white-container">
           <header class="title-container">
             <h1 class="satisfy-regular">Let 's keep in touch !</h1>
           </header>
-          <h3 class="indie-flower-regular">
+          <h2 class="satisfy-regular">
             Fill out the form and contact us for any information or questions.
             <br />
             Our offices are open from Monday to Friday from 09:00 am to 06:00
             pm.
-          </h3>
+          </h2>
 
-          <div class="form mb-3">
-            <label
-              for="exampleFormControlInput1"
-              class="form-label indie-flower-regular"
-              >EMAIL ADDRESS</label
-            >
-            <input
-              type="email"
-              class="form-control"
-              id="exampleFormControlInput1"
-              placeholder="name@example.com"
-            />
-          </div>
-
-          <div class="form mb-3">
-            <label
-              for="exampleFormControlTextarea1"
-              class="form-label indie-flower-regular"
-              >MESSAGE</label
-            >
-            <textarea
-              class="form-control"
-              id="exampleFormControlTextarea1"
-              rows="3"
-            ></textarea>
+          <div class="d-flex align-items-center">
+            <div class="mb-3">
+              <label for="inputEmail" class="form-label indie-flower-regular"
+                >EMAIL</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="input-email"
+                placeholder="name@example.com"
+              />
+            </div>
+            <div class="mb-3">
+              <label
+                for="textareaMessage"
+                class="form-label indie-flower-regular"
+                >MESSAGE</label
+              >
+              <textarea
+                class="form-control"
+                id="textareaMessage"
+                rows="10"
+              ></textarea>
+            </div>
           </div>
           <!-- <div class="form">
             <form action="processa_form.php" method="post">
