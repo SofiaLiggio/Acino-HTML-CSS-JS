@@ -76,6 +76,18 @@ body {
   align-items: center;
 }
 
+.form-c .mb-3 .input-email .form-control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 input,
 textarea {
   border-color: black;
