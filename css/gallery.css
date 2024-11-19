@@ -69,6 +69,7 @@ body {
 
 .img {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: auto;
@@ -79,8 +80,6 @@ body {
   /* background-color: #4caf50; */
   width: 800px;
   overflow: hidden;
-  padding: 50px;
-  padding-left: 100px;
 }
 
 .slide {
@@ -92,7 +91,8 @@ body {
 }
 
 .carousel-item img {
-  width: 40%;
+  width: 34%;
+  height: auto;
 }
 
 footer {
