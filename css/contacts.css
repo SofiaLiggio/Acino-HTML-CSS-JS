@@ -82,6 +82,14 @@ body {
   align-items: center;
 }
 
+.form-control {
+  width: 400px;
+}
+
+#input-email {
+  height: 25px;
+}
+
 .input {
   display: flex;
   justify-content: center;
