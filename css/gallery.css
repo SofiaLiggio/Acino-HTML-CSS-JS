@@ -24,7 +24,6 @@ body {
 }
 
 .main-container {
-  /* background-color: #4caf50; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,7 +35,6 @@ body {
   width: 1800px;
   margin: 0 auto;
   border-radius: 15px;
-  /* background-color: rgb(160, 208, 100); */
   background-color: rgb(139, 179, 90);
   border-color: black;
   border-style: solid;
@@ -50,7 +48,6 @@ body {
 }
 
 .container {
-  /* background-color: #4caf50; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -98,7 +95,7 @@ body {
 footer {
   text-align: center;
   margin-top: 56px;
-  background-color: #4caf50;
+  background-color: rgb(26, 26, 26);
   color: white;
 }
 
