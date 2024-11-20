@@ -22,13 +22,6 @@ body {
   color: white;
 }
 
-/* .title-container {
-  background-color: #4caf50;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-
 .satisfy-regular {
   font-family: "Satisfy", cursive;
   font-weight: 600;
@@ -52,7 +45,6 @@ body {
 }
 
 .main-container {
-  /* background-color: #4caf50; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -112,7 +104,7 @@ textarea {
 footer {
   text-align: center;
   margin-top: 56px;
-  background-color: #4caf50;
+  background-color: rgb(26, 26, 26);
   color: white;
 }
 
