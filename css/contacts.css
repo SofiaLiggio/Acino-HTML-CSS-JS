@@ -76,6 +76,7 @@ body {
 
 .form-control {
   width: 400px;
+  border-width: 3px;
 }
 
 #input-email {
