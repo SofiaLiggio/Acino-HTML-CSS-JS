@@ -16,6 +16,16 @@ body {
   opacity: 0.8;
 }
 
+.sidebar {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  margin: 0;
+  padding: 0;
+}
+
 .satisfy-regular {
   font-family: "Satisfy", cursive;
   font-weight: 600;
