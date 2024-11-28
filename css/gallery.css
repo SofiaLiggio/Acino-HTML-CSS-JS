@@ -94,6 +94,12 @@ body {
   overflow: hidden;
 }
 
+.carousel-control {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .slide {
   display: block;
   padding-bottom: 50px;
