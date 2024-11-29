@@ -1,6 +1,11 @@
-const myCarouselElement = document.querySelector("#myCarousel");
+const goRight = document.getElementById("button-next");
+const goLeft = document.getElementById("button-previous");
 
-const carousel = new bootstrap.Carousel(myCarouselElement, {
-  interval: 2000,
-  touch: false,
-});
+function movePicRight() {}
+
+function movePicLeft() {}
+
+document.addEventListener("click", movePicRight);
+document.addEventListener("click", movePicLeft);
+
+/* al div padre devo dare overflowhidden y */
